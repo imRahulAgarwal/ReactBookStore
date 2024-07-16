@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.openSansFont {
+    font-family: "Open Sans", sans-serif;
+}
+
+.merriWeather {
+    font-family: "Merriweather", serif;
+}
+
+.backgroundColor {
+    background-color: #ffffff;
+}
+
+.textColor {
+    color: #333333;
+}
+
+.accentColor {
+    color: #e74c3c;
+}
+
+.secondaryColor {
+    color: #ecf0f1;
+}
+
+.primaryColor {
+    color: #2c3e50;
+}

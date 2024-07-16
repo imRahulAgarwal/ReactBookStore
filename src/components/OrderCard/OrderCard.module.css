@@ -1,0 +1,23 @@
+.outerContainer {
+    @apply bg-white shadow-md rounded p-4;
+}
+
+.innerContainer {
+    @apply flex flex-col gap-y-2;
+}
+
+.orderDateAndStatus {
+    @apply flex flex-col sm:flex-row justify-between text-sm;
+}
+
+.orderDetails {
+    @apply flex flex-col sm:flex-row justify-center gap-y-2 gap-x-6;
+}
+
+.flexChild {
+    @apply flex-1;
+}
+
+.image {
+    @apply rounded;
+}

@@ -1,0 +1,31 @@
+.outerContainer {
+    @apply p-4;
+}
+
+.formContainer {
+    @apply flex flex-col gap-y-4;
+}
+
+.groupContainer {
+    @apply flex flex-col sm:flex-row gap-4;
+}
+
+.inputContainer {
+    @apply flex flex-col flex-1;
+}
+
+.input {
+    @apply border border-[#00000035] rounded px-4 py-2 focus:outline-none focus:border-black disabled:cursor-not-allowed;
+}
+
+.buttonContainer {
+    @apply mx-auto;
+}
+
+.saveAddressButton {
+    @apply px-4 py-1.5 bg-[#e74c3c] text-white rounded;
+}
+
+.editAddressButton {
+    @apply px-4 py-1.5 bg-yellow-500 hover:bg-yellow-600 transition-colors duration-200 rounded text-white;
+}

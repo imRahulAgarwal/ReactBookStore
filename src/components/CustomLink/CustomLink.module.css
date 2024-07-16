@@ -1,0 +1,7 @@
+.activeLink {
+    @apply text-[#3498db] transition-colors text-lg;
+}
+
+.inActiveLink {
+    @apply hover:text-[#3498bb] transition-colors text-lg;
+}

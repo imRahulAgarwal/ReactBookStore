@@ -1,0 +1,15 @@
+.outerContainer {
+    @apply flex flex-col gap-y-2;
+}
+
+.imageRemoveButtonContainer {
+    @apply relative mx-auto;
+}
+
+.image {
+    @apply rounded;
+}
+
+.removeButton {
+    @apply bg-red-500 text-white p-2 rounded-full absolute -top-3 -right-3;
+}
